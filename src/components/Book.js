@@ -19,7 +19,7 @@ class Book extends React.Component {
             </div>
           </div>
           <div className="book-title"><Link to={"/book/" + this.props.book.id}>{this.props.book.title}</Link></div>
-          <div className="book-authors">{(this.props.book.authors && this.props.book.authors[0]) || "No Author..."}</div>
+          <div className="book-authors">{this.props.book.authors && this.props.book.authors.join(', ')}</div>
         </div>
       </li>
     );

@@ -1,6 +1,13 @@
 # MyReads App
 
-A Book Lending App with React
+## Description
+
+- This is a React project from Udacity Front-End Nanodegree.
+- My Reads is a book tracking app. It divides books into 3 categories: 
+  1. Want To Read.
+  2. Currently Reading.
+  3. Read.
+- It also provides search for books by title or author(s).
 
 ## Getting Started
 
